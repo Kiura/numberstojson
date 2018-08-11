@@ -17,7 +17,7 @@ type User struct {
 	CityOfBirth string `json:"city_of_birth,omitempty"`
 }
 
-// first 31 config parameters
+// first 31 (62) config parameters
 const (
 	FirstName uint64 = 1 << iota
 	FirstNameRequired
