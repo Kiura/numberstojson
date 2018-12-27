@@ -1,4 +1,4 @@
-package numberstojson
+package tiny
 
 import (
 	"encoding/json"
