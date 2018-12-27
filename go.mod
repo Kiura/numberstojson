@@ -1,1 +1,1 @@
-module Kiura/numberstojson
+module github.com/Kiura/numberstojson
