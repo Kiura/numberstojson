@@ -14,13 +14,13 @@ const (
 
 // User is the object that holds the data for user
 type User struct {
-	FirstName   string `json:"first_name,omitempty"`
-	LastName    string `json:"last_name,omitempty"`
-	MiddleName  string `json:"middle_name,omitempty"`
-	PhoneNumber string `json:"phone_number,omitempty"`
+	FirstName   string `json:"firstName,omitempty"`
+	LastName    string `json:"lastName,omitempty"`
+	MiddleName  string `json:"middleName,omitempty"`
+	PhoneNumber string `json:"phoneNumber,omitempty"`
 	Email       string `json:"email,omitempty"`
 	Nationality string `json:"nationality,omitempty"`
-	CityOfBirth string `json:"city_of_birth,omitempty"`
+	CityOfBirth string `json:"cityOfBirth,omitempty"`
 }
 
 func DeEval(jsonString string) uint64 {
